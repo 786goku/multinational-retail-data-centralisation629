@@ -13,7 +13,7 @@ The Sales Data Centralization System is a project aimed at centralizing the sale
 Installation Instructions<a name="installation-instructions"></a>
 To install and set up the Sales Data Centralization System, follow these steps:
 
-Clone the repository from [GitHub Repo Link].
+Clone the repository from https://github.com/786goku.
 Navigate to the project directory.
 Run install.sh to install dependencies.
 Configure the database connection settings in config.yaml.
