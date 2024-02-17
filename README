@@ -1,0 +1,55 @@
+Multinational retail data centralisation
+Sales Data Centralization System
+
+Table of Contents
+Description
+Installation Instructions
+Usage Instructions
+File Structure
+License Information
+Description<a name="description"></a>
+The Sales Data Centralization System is a project aimed at centralizing the sales data of our multinational company into a single, easily accessible database. The current sales data, scattered across various sources, hinders efficient analysis by team members. The goal is to create a unified and centralized repository, acting as the single source of truth for sales data. This system will enhance our organization's ability to be more data-driven, enabling quick and comprehensive access to up-to-date metrics for informed business decisions.
+
+Installation Instructions<a name="installation-instructions"></a>
+To install and set up the Sales Data Centralization System, follow these steps:
+
+Clone the repository from [GitHub Repo Link].
+Navigate to the project directory.
+Run install.sh to install dependencies.
+Configure the database connection settings in config.yaml.
+Execute python setup.py to initialize the database.
+Usage Instructions<a name="usage-instructions"></a>
+After installation, follow these steps to use the Sales Data Centralization System:
+
+Ensure the database is running and accessible.
+Run the main application using python main.py.
+Access the centralized sales data through the provided APIs or a web interface.
+Use the documentation for API endpoints and queries.
+File Structure<a name="file-structure"></a>
+arduino
+Copy code
+Sales-Data-Centralization/
+│
+├── src/
+│   ├── main.py
+│   ├── database/
+│   │   ├── models/
+│   │   │   ├── sales.py
+│   │   │   └── ...
+│   │   ├── migrations/
+│   │   │   └── ...
+│   │   ├── connectors/
+│   │   │   ├── sql_connector.py
+│   │   │   └── ...
+│   │   └── ...
+│   └── ...
+│
+├── config.yaml
+├── install.sh
+├── requirements.txt
+├── setup.py
+├── README.md
+└── LICENSE
+License Information<a name="license-information"></a>
+This project is licensed under the [Your License Name] License - see the LICENSE file for details.
+
